@@ -1,0 +1,51 @@
+:root {
+    /* Primary Colors */
+    --color-lime: hsl(61, 70%, 52%);
+    --color-red: hsl(4, 69%, 50%);
+
+    /* Neutral Colors */
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-100: hsl(202, 86%, 94%);
+    --color-slate-300: hsl(203, 41%, 72%);
+    --color-slate-500: hsl(200, 26%, 54%);
+    --color-slate-700: hsl(200, 24%, 40%);
+    --color-slate-900: hsl(202, 55%, 16%);
+}
+
+
+html,
+body {
+    font-family: 'Plus Jakarta Sans';
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-slate-900);
+}
+
+h5 {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: var(--color-slate-500)
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: bold;
+    color: var(--color-slate-900);
+    width: 100%;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: var(--color-lime);
+    color: var(--color-slate-900);
+    font-weight: bold;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 32px;
+    padding: 8px;
+    width: 100%;
+}
